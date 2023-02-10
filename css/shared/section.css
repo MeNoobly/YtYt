@@ -1,0 +1,22 @@
+﻿.section_intro {
+    background-color: var(--grey-default);
+    max-height: 598px;
+    height: 100%;
+    position: relative;
+}
+
+.section__header {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 46px;
+    text-align: center;
+    color: var(--blue-deep);
+}
+
+.section__header_technologies-learn {
+    margin: 103px 0 35px 0;
+}
+
+.section__header_learning-cool {
+    margin: 84px 0 34px 0;
+}

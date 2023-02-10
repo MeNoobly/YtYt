@@ -1,0 +1,43 @@
+﻿:root {
+    --grey-default: #EAF2F5;
+    --grey-border: #DEDEDE;
+    --blue-default: #38BFF2;
+    --blue-deep: #22253B;
+    --blue-technologies: #5096FF;
+    --blue-light-technologies: #50C0FF;
+    --blue-deep-technologies: #4B77B9;
+    --white-default: #FFFFFF;
+    --orange-default: #F15525;
+    --orange-technologies: #FF6F50;
+    --yellow-technologies: #FFB359;
+    --green-technologies: #4BD071;
+    --purple-technologies: #AF93FF;
+}
+
+* {
+    font-family: 'Gilroy';
+    font-style: normal;
+}
+
+.container {
+    width: 100%;
+    max-width: 1190px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.logo {
+    padding: 16px 0 0 21px;
+    margin-right: 70px;
+}
+
+hr {
+    display: block;
+    width: 365.22px;
+    height: 1px;
+    background-color: var(--grey-border);
+}
+
+.grey-background {
+    background-color: var(--grey-default);
+}
