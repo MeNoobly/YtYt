@@ -1,0 +1,23 @@
+﻿.cost__start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 64px 51px 63px 54px;
+    background-color: var(--grey-border);
+    border-radius: 30px;
+    margin-top: 33px;
+}
+
+.cost__start-image {
+    display: block;
+    width: 91px;
+    height: 91px;
+}
+
+.cost__start-text {
+    max-width: 600px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    color: var(--blue-deep);
+}

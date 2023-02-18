@@ -1,6 +1,9 @@
 ﻿:root {
     --grey-default: #EAF2F5;
     --grey-border: #DEDEDE;
+    --grey-table: #F3F3F3;
+    --grey-prescription: #8E8E8E;
+    --grey-hr: #D8D8D8;
     --blue-default: #38BFF2;
     --blue-deep: #22253B;
     --blue-technologies: #5096FF;
@@ -31,6 +34,24 @@
     margin-right: 70px;
 }
 
+.logo__footer {
+    padding: 0;
+    display: flex;
+}
+
+.logo__image {
+    display: block;
+}
+
+.logo__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--grey-prescription);
+    max-width: 151px;
+    margin-left: 19px;
+}
+
 hr {
     display: block;
     width: 365.22px;
@@ -40,4 +61,37 @@ hr {
 
 .grey-background {
     background-color: var(--grey-default);
+}
+
+.shared__link {
+    display: block;
+    color: var(--white-default);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 96.69%;
+    letter-spacing: -0.03em;
+    text-align: center;
+    background: #F15525;
+    border-radius: 82px;
+    margin-bottom: 100px;
+}
+
+.shared__link-arrow {
+    display: inline-block;
+    text-align: center;
+    margin-left: 12.38px;
+}
+
+.shared__link_intro {
+    padding: 27.22px 50px 28px 45.71px;
+}
+
+.shared__link_try  {
+    padding: 26.52px 48.49px 27.36px 24.95px;
+}
+
+.shared__link_try-cost {
+    padding: 0;
+    padding: 27px 65px 27px 56px;
+    margin-bottom: 0;
 }

@@ -1,0 +1,9 @@
+﻿.cost__prescription {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--grey-prescription);
+    padding-left: 58px;
+}
+

@@ -1,0 +1,26 @@
+﻿.cost__conditions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+}
+
+.cost__conditions-item {
+    display: flex;
+}
+
+.cost__conditions-icon {
+    display: block;
+    margin-right: 30px;
+}
+
+.cost__conditions-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--blue-deep);
+    max-width: 300px;
+}
+
+.cost__conditions-text_short {
+    max-width: 158px;
+}

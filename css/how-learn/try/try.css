@@ -1,0 +1,23 @@
+﻿.try {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white-default);
+    max-width: 538px;
+    width: 100%;
+    border-radius: 110px;
+    margin: 0 auto;
+    padding: 12px 37px 11px 14px;
+    height: 93px;
+}
+
+.try__item_title {
+    max-width: 214px;
+}
+
+.try__title {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: var(--blue-deep);
+}

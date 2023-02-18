@@ -1,8 +1,30 @@
 ﻿.section_intro {
-    background-color: var(--grey-default);
+    background: url(../../img/intro/intro.jpg) center center no-repeat;
+    background-size: cover;
     max-height: 598px;
     height: 100%;
     position: relative;
+}
+
+.section_advantages {
+    padding-bottom: 77.5px;
+}
+
+.section_how-learn {
+    background-color: var(--grey-default);
+    padding-top: 55px;
+    padding-bottom: 90px;
+}
+
+.section_study-information {
+    background: var(--white-default);
+    border-radius: 80px;
+    padding: 91px 0;
+}
+
+.section_cost {
+    padding-top: 90px;
+    background-color: var(--grey-default);
 }
 
 .section__header {
@@ -17,6 +39,10 @@
     margin: 103px 0 35px 0;
 }
 
-.section__header_learning-cool {
+.section__header_advantages {
     margin: 84px 0 34px 0;
+}
+
+.section__header_cost {
+    margin-bottom: 35px;
 }

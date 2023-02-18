@@ -30,25 +30,6 @@
     max-width: 365.22px;
 }
 
-.intro__link {
-    padding: 27.22px 50px 28px 45.71px;
-    color: var(--white-default);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 96.69%;
-    letter-spacing: -0.03em;
-    text-align: center;
-    background: #F15525;
-    border-radius: 82px;
-    margin-bottom: 100px;
-}
-
-.intro__link-arrow {
-    display: inline-block;
-    text-align: center;
-    margin-left: 12.38px;
-}
-
 .intro__image {
     width: 100%;
     height: auto;

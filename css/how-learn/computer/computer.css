@@ -1,0 +1,53 @@
+﻿.computer__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    max-width: 762px;
+}
+
+.computer__inner {
+    position: relative;
+    width: 100%;
+}
+
+.computer__play {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+.computer__position {
+    position: relative;
+}
+
+.computer__icon {
+    padding: 33px 33px 33px 35px;
+}
+
+.computer__orange-circle {
+    width: 80px;
+    height: 80px;
+    background-color: var(--orange-default);
+    border-radius: 82px;
+}
+
+.computer__orange-circle-transparent {
+    width: 122px;
+    height: 122px;
+    background: rgba(241, 85, 37, 0.32);
+    border-radius: 82px;
+    padding: 21px;
+    margin-bottom: 7px;
+}
+
+.computer__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 96.69%;
+    letter-spacing: -0.03em;
+    color: var(--white-default);
+    position: absolute;
+    left: 43%;
+    top: 54%;
+}

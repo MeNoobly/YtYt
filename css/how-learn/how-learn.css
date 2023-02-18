@@ -1,0 +1,18 @@
+﻿.how-learn__text {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: var(--blue-deep);
+    max-width: 642px;
+    margin: 26px auto 28px;
+}
+
+.how-learn__computer {
+    margin-bottom: 30px;
+}
+
+.how-learn__privilege {
+    margin-bottom: 26px;
+}
